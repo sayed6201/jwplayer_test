@@ -33,28 +33,56 @@ public class MainActivity extends AppCompatActivity {
         mPlayer = playerView.getPlayer();
 
         PlaylistItem playlistItem = new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
+                .file("https://cdn.jwplayer.com/manifests/YREA7pa9.m3u8")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/im1.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
+                .title("Unreal Game Engine")
                 .build();
 
         PlaylistItem playlistItem2 = new PlaylistItem.Builder()
                 .file("https://cdn.jwplayer.com/manifests/ViCD3045.m3u8")
-                .image("data:image/png;base64,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")
-                .title("Playlist-Item2 Title")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img5.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
+                .title("Unity 3D")
                 .description("Some really great content")
                 .build();
 
 
         PlaylistItem playlistItem3 = new PlaylistItem.Builder()
                 .file("https://cdn.jwplayer.com/manifests/xvMX5Lub.m3u8")
-                .image("data:image/png;base64,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")
-                .title("Playlist-Item2 Title")
-                .description("Some really great content")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img6.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
+                .title("Dark Box")
+                .description("The Great Ship")
+                .build();
+
+        PlaylistItem playlistItem4 = new PlaylistItem.Builder()
+                .file("https://cdn.jwplayer.com/manifests/xvMX5Lub.m3u8")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img8.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
+                .title("Dark Box")
+                .description("The Great Ship")
+                .build();
+
+        PlaylistItem playlistItem5 = new PlaylistItem.Builder()
+                .file("https://cdn.jwplayer.com/manifests/xvMX5Lub.m3u8")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img8.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
+                .title("Dark Box")
+                .description("The Great Ship")
+                .build();
+
+        PlaylistItem playlistItem6 = new PlaylistItem.Builder()
+                .file("https://cdn.jwplayer.com/manifests/xvMX5Lub.m3u8")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img8.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
+                .title("Dark Box")
+                .description("The Great Ship")
                 .build();
 
         List<PlaylistItem> playlist = new ArrayList<>();
         playlist.add(playlistItem);
         playlist.add(playlistItem2);
         playlist.add(playlistItem3);
+        playlist.add(playlistItem4);
+        playlist.add(playlistItem5);
+        playlist.add(playlistItem6);
+
+
 
         PlayerConfig config = new PlayerConfig.Builder()
                 .playlist(playlist)

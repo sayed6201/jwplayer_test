@@ -70,39 +70,39 @@ public class DashboardFragment extends Fragment implements
 
         items.add(new ListVideoItem(new PlaylistItem.Builder()
                 .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
-                .image("https://content.jwplatform.com/thumbs/1sc0kL2N-720.jpg")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img3.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
 //										.mediaId("IkMciQZ1")
-                .title("Press Play")
+                .title("Virtual Home")
                 .build()));
         items.add(new ListVideoItem(new PlaylistItem.Builder()
                 .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
-                .image("https://content.jwplatform.com/thumbs/mFq72HEY-720.jpg")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img5.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
+//										.mediaId("IkMciQZ1")
+                .title("Spatial Mapping")
+                .build()));
+
+        items.add(new ListVideoItem(new PlaylistItem.Builder()
+                .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img6.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
+//										.mediaId("IkMciQZ1")
+                .title("")
+                .build()));
+        items.add(new ListVideoItem(new PlaylistItem.Builder()
+                .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img8.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
 //										.mediaId("IkMciQZ1")
                 .title("Jellyfish")
                 .build()));
 
         items.add(new ListVideoItem(new PlaylistItem.Builder()
                 .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
-                .image("https://content.jwplatform.com/thumbs/1sc0kL2N-720.jpg")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img14.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
 //										.mediaId("IkMciQZ1")
                 .title("Press Play")
                 .build()));
         items.add(new ListVideoItem(new PlaylistItem.Builder()
                 .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
-                .image("https://content.jwplatform.com/thumbs/mFq72HEY-720.jpg")
-//										.mediaId("IkMciQZ1")
-                .title("Jellyfish")
-                .build()));
-
-        items.add(new ListVideoItem(new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
-                .image("https://content.jwplatform.com/thumbs/1sc0kL2N-720.jpg")
-//										.mediaId("IkMciQZ1")
-                .title("Press Play")
-                .build()));
-        items.add(new ListVideoItem(new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
-                .image("https://content.jwplatform.com/thumbs/mFq72HEY-720.jpg")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img12.png?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
 //										.mediaId("IkMciQZ1")
                 .title("Jellyfish")
                 .build()));
