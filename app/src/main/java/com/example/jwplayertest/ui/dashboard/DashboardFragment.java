@@ -62,49 +62,49 @@ public class DashboardFragment extends Fragment implements
         binding = FragmentDashboardBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        new LicenseUtil().setLicenseKey(getContext(), "n/o34UmOVm0xXtukKillgolHq6UnpE8B8myrLUe9LnvATBovTHSyFGTDtxOWmOKk");
+        new LicenseUtil().setLicenseKey(getContext(), "rEl02VN07UzNJ2qx60EHu+nnUEPsjcGj3alK/8XTBqfFRD1n5VhL5pox0KXlo79j");
 
         mKeepScreenOnHandler = new KeepScreenOnHandler(getActivity().getWindow());
 
         ArrayList<ItemBase> items = new ArrayList<>();
 
         items.add(new ListVideoItem(new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
+                .file("https://cdn.jwplayer.com/manifests/j8TIo5ZA.m3u8")
                 .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img3.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
 //										.mediaId("IkMciQZ1")
                 .title("Virtual Home")
                 .build()));
         items.add(new ListVideoItem(new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
+                .file("https://cdn.jwplayer.com/manifests/7GxM52Cr.m3u8")
                 .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img5.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
 //										.mediaId("IkMciQZ1")
                 .title("Spatial Mapping")
                 .build()));
 
         items.add(new ListVideoItem(new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
+                .file("https://cdn.jwplayer.com/manifests/FWRXOEl7.m3u8")
                 .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img6.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
 //										.mediaId("IkMciQZ1")
                 .title("")
                 .build()));
         items.add(new ListVideoItem(new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
+                .file("https://cdn.jwplayer.com/manifests/tyQmOfY5.m3u8")
                 .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img8.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
 //										.mediaId("IkMciQZ1")
-                .title("Jellyfish")
+                .title("")
                 .build()));
 
         items.add(new ListVideoItem(new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
+                .file("https://cdn.jwplayer.com/manifests/7GxM52Cr.m3u8")
                 .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img14.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
 //										.mediaId("IkMciQZ1")
-                .title("Press Play")
+                .title("")
                 .build()));
         items.add(new ListVideoItem(new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/IkMciQZ1.m3u8")
+                .file("https://cdn.jwplayer.com/manifests/tyQmOfY5.m3u8")
                 .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img12.png?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
 //										.mediaId("IkMciQZ1")
-                .title("Jellyfish")
+                .title("")
                 .build()));
 
 

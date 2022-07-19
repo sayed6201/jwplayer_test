@@ -52,7 +52,7 @@
             android:value="com.jwplayer.opensourcedemo.CastOptionsProvider" />
         <meta-data
             android:name="JW_LICENSE_KEY"
-            android:value="n/o34UmOVm0xXtukKillgolHq6UnpE8B8myrLUe9LnvATBovTHSyFGTDtxOWmOKk" />
+            android:value="rEl02VN07UzNJ2qx60EHu+nnUEPsjcGj3alK/8XTBqfFRD1n5VhL5pox0KXlo79j" />
     </application>
 
 </manifest>
