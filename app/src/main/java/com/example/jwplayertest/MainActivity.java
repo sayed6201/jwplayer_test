@@ -89,6 +89,11 @@ public class MainActivity extends AppCompatActivity {
 //                .playlistUrl("https://cdn.jwplayer.com/v2/playlists/nrealDemoVidz")
                 .build();
 
+//        PlayerConfig config = new PlayerConfig.Builder()
+//                .playlistUrl("https://cdn.jwplayer.com/v2/playlists/qR2QB5Ar")
+//                .build();
+
+
         mPlayer.setup(config);
     }
 }

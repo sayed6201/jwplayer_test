@@ -17,21 +17,21 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".TrendingActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainBtnNavActivity"
-            android:label="@string/title_activity_main_btn_nav"
             android:exported="true"
-            >
+            android:label="@string/title_activity_main_btn_nav">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Gridview"
-            android:exported="true">
-        </activity>
-
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
@@ -43,10 +43,8 @@
 
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
-        </activity>
-<!--        <meta-data android:name="com.google.android.gms.version"-->
-<!--            android:value="@integer/google_play_services_version" />-->
-
+        </activity> <!-- <meta-data android:name="com.google.android.gms.version" -->
+        <!-- android:value="@integer/google_play_services_version" /> -->
         <meta-data
             android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
             android:value="com.jwplayer.opensourcedemo.CastOptionsProvider" />

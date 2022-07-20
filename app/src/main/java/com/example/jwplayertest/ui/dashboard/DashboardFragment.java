@@ -69,34 +69,34 @@ public class DashboardFragment extends Fragment implements
         ArrayList<ItemBase> items = new ArrayList<>();
 
         items.add(new ListVideoItem(new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/j8TIo5ZA.m3u8")
-                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img3.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
-//										.mediaId("IkMciQZ1")
-                .title("Virtual Home")
-                .build()));
-        items.add(new ListVideoItem(new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/7GxM52Cr.m3u8")
-                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img5.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
-//										.mediaId("IkMciQZ1")
-                .title("Spatial Mapping")
-                .build()));
-
-        items.add(new ListVideoItem(new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/FWRXOEl7.m3u8")
-                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img6.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
+                .file("https://cdn.jwplayer.com/manifests/zTxsaBi1.m3u8")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/Screenshot%202022-07-20%20at%2012.36.18.png?alt=media&token=55012fdc-7235-4ae4-80b3-2c3e6eec1432")
 //										.mediaId("IkMciQZ1")
                 .title("")
                 .build()));
         items.add(new ListVideoItem(new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/tyQmOfY5.m3u8")
-                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img8.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
+                .file("https://cdn.jwplayer.com/manifests/ltowAjvB.m3u8")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/Screenshot%202022-07-20%20at%2012.37.10.png?alt=media&token=77d6333c-61ed-4059-9acb-f837c64db548")
 //										.mediaId("IkMciQZ1")
                 .title("")
                 .build()));
 
         items.add(new ListVideoItem(new PlaylistItem.Builder()
-                .file("https://cdn.jwplayer.com/manifests/7GxM52Cr.m3u8")
-                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/img14.jpg?alt=media&token=35b36435-5077-469a-a7a6-38e7d93ee034")
+                .file("https://cdn.jwplayer.com/manifests/YKloj2dp.m3u8")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/Screenshot%202022-07-20%20at%2012.37.35.png?alt=media&token=7de27833-cf6d-4232-820b-52bba34a4725")
+//										.mediaId("IkMciQZ1")
+                .title("")
+                .build()));
+        items.add(new ListVideoItem(new PlaylistItem.Builder()
+                .file("https://cdn.jwplayer.com/manifests/aKDyruoc.m3u8")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/Screenshot%202022-07-20%20at%2012.37.47.png?alt=media&token=8f62d9bd-80a3-4cf5-ab63-cf00545c1cc5")
+//										.mediaId("IkMciQZ1")
+                .title("")
+                .build()));
+
+        items.add(new ListVideoItem(new PlaylistItem.Builder()
+                .file("https://cdn.jwplayer.com/manifests/zTxsaBi1.m3u8")
+                .image("https://firebasestorage.googleapis.com/v0/b/nrealsrg.appspot.com/o/Screenshot%202022-07-20%20at%2012.38.38.png?alt=media&token=6ccbc029-e998-4455-b326-a419368d4a52")
 //										.mediaId("IkMciQZ1")
                 .title("")
                 .build()));

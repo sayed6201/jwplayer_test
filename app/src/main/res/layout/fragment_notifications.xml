@@ -14,22 +14,33 @@
             android:layout_height="match_parent"
             android:padding="10dp"
             android:orientation="vertical"
-            android:gravity="center"
+            android:gravity="center_horizontal"
+
             >
 
             <ImageView
-                android:layout_width="200dp"
+                android:layout_width="wrap_content"
                 android:layout_height="200dp"
                 android:layout_margin="15dp"
-                android:src="@drawable/ic_baseline_notifications_active_24" />
+                android:src="@drawable/mylogo" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="No new videos"
+                android:text="অংশ অংশভাক আঁইশ ইঁচড়েপাকা ঈক্ষণ ঈদৃক অংশভাগী জওয়ান অংশাঙ্কিত ইউক্যালিপটাস অংশাবতার হালহদিশ পিতৃতর্পণ টকানো ঈক্ষিত জগজ্জন তকতনামা আঁকুবাঁকু পঁইছা
+  জগঝপ্প পঁহুছা দ্রাবিড়ী আঁকুড়ি ঈদৃক জগদম্বা টঙ্ক অংশিন্‌ জগদ্গৌরী আঁচা তকরার তিলপিটালি গজ-দাঁত অংশু ঈপ্সনীয় পইতা শংকরাভরণ হংসগমন পকড় অংশুধর ঈপ্সু ঈর্ষী
+  জগদ্ধাত্রী আঁজনাই তক্তি শংসনপত্র হংসারূঢ়া দংশল "
                 android:textFontWeight="900"
                 android:textAlignment="center"
                 >
             </TextView>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:text="Sign up"
+                android:elevation="30dp"
+                />
 
         </LinearLayout>
 
